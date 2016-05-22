@@ -1,0 +1,97 @@
+a {
+	color: #000000;
+	text-decoration: none;
+	font: normal 10px verdana, tahoma, arial, helvetica, sans-serif;
+	padding: 0px, 0px, 0px, 0px;
+	text-align: left;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #000000;
+	font: normal 10px verdana, tahoma, arial, helvetica, sans-serif;
+	padding: 0px, 0px, 0px, 0px;
+	text-align: left;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+table{
+	border-width: 1px 1px 1px 1px;
+	border-spacing: 1px;
+	border-style: outset outset outset outset;
+	border-color: black black black black;
+	border-collapse: collapse;
+	background-color: white;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+th{
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: black black black black;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+
+td{
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: black black black black;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+
+table.boundingbox{
+	border-width: 0px 0px 0px 0px;
+	border-spacing: 0px;
+	border-style: outset outset outset outset;
+	border-color: black black black black;
+	border-collapse: collapse;
+	background-color: white;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+table.boundingbox th.boundingbox{
+	border-width: 0px 0px 0px 0px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: black black black black;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+
+table.boundingbox td.boundingbox{
+	border-width: 0px 0px 0px 0px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: black black black black;
+	background-color: white;
+}
+	
+h1{
+	color: #000000;
+	font: normal 10px verdana, tahoma, arial, helvetica, sans-serif;
+	padding: 0px, 0px, 0px, 0px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+h2{
+	color: #000000;
+	font: normal 10px verdana, tahoma, arial, helvetica, sans-serif;
+	padding: 0px, 0px, 0px, 0px;
+	font-style: normal;
+}
+
+body {
+	margin:0px 0px 0px 0px;
+	padding:0;
+	background: #000000
+}

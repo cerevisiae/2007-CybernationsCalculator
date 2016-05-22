@@ -1,0 +1,59 @@
+function reset()
+{
+  for(i = 0; i < 12; i++)
+  {
+    resources[i] = ""
+	document[res_img[i]].src = "blank.gif"
+  }
+  for(i = 0; i < 8; i++)
+  {
+    res_bonuses[i] = ""
+	document[bon_img[i]].src = "blank.gif"
+  }
+  document.getElementById('tech').value = 0
+  document.getElementById('ns').value = 0
+  document.getElementById('citizens').value = 0
+  document.getElementById('land').value = 0
+  document.getElementById('infra').value = 0
+  document.getElementById('soldiers').value = 0
+  document.getElementById('tanks').value = 0
+  document.getElementById('aircraft').value = 0
+  document.getElementById('cms').value = 0
+  document.getElementById('nukes').value = 0
+  document.getElementById('citizen_tax').value = 0
+  
+  document.getElementById('internet').checked = false
+  document.getElementById('space').checked = false
+  document.getElementById('monument').checked = false
+  document.getElementById('movie').checked = false
+  document.getElementById('guniversity').checked = false
+  document.getElementById('research').checked = false
+  document.getElementById('disaster').checked = false
+  document.getElementById('social').checked = false
+  document.getElementById('interstate').checked = false
+  document.getElementById('temple').checked = false
+  document.getElementById('memorial').checked = false
+  document.getElementById('stock').checked = false
+  
+  document.getElementById('bank').value = 0
+  document.getElementById('intelligence').value = 0
+  document.getElementById('church').value = 0
+  document.getElementById('policehq').value = 0
+  document.getElementById('foreign').value = 0
+  document.getElementById('stadium').value = 0
+  document.getElementById('hospital').value = 0
+  document.getElementById('border').value = 0
+  document.getElementById('missile').value = 0
+  document.getElementById('factory').value = 0
+  document.getElementById('school').value = 0
+  document.getElementById('harbor').value = 0
+  document.getElementById('barrack').value = 0
+  document.getElementById('labor').value = 0
+  document.getElementById('clinic').value = 0
+  document.getElementById('satellite').value = 0
+  document.getElementById('guerilla').value = 0
+  document.getElementById('university').value = 0
+  document.getElementById('wonder').value = 0
+  
+  update()
+}
